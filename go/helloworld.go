@@ -6,5 +6,6 @@ import (
 
 func main() {
 
-	fmt.Println("number two println")
+	var name = "ben"
+	fmt.Printf("number two println%s", name)
 }
