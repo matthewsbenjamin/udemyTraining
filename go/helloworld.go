@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-
-	var name = "ben"
-	fmt.Printf("number two println%s", name)
+	for i := 0; i < 200; i++ {
+		fmt.Printf("%d\t%q\t%b\t%#X\n", i, i, i, i)
+	}
 }
